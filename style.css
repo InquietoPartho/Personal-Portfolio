@@ -1,0 +1,131 @@
+body {
+	margin: 0px;
+}
+section {
+	height: 900px;
+}
+.front-page {
+	/* background-color: aqua; */
+	background-image: url("Images/header-bg.png");
+	background-size: cover;
+}
+.half-width {
+	width: 40%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding-left: 2%;
+}
+.half-width img {
+	width: 100%;
+}
+h1 {
+	font-size: 50px;
+	/* font-weight: 5px; */
+}
+#hello {
+	font-family: "Times New Roman", Times, serif;
+}
+#bio {
+	font-family: "Times New Roman", Times, serif;
+}
+p {
+	font-size: 20px;
+}
+#mid {
+	margin-top: 15%;
+	margin-left: 10%;
+	padding-left: 2%;
+}
+.name-highlight {
+	color: rgb(180, 19, 220);
+}
+.button {
+	text-decoration: none;
+	margin-top: 15%;
+	background-image: linear-gradient(180deg, lightsalmon, purple);
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: 700px;
+	color: white;
+}
+.biography {
+	background-image: url("Images/biography-bg.png");
+	background-size: cover;
+}
+#project {
+	text-align: center;
+}
+.work {
+	background-image: url("Images/latest-work-bg.png");
+	background-size: cover;
+}
+.full-width {
+	width: 25%;
+	float: left;
+	margin-top: 10%;
+	margin-left: 5%;
+	padding-left: 1%;
+}
+.full-width img {
+	width: 100%;
+}
+.client {
+	background-image: url("Images/footer-bg.png");
+	background-size: cover;
+}
+#footer-header {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 50px;
+	text-align: center;
+}
+#commenter {
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 50px;
+	font-weight: 500px;
+	margin-top: 10%;
+}
+#status {
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 25px;
+	margin-top: -3%;
+}
+#comment {
+	text-align: center;
+	/* text-indent: 2px;
+	 */
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 600px;
+	font-size: 25px;
+	/* box-shadow: 5px 2px 25px gray; */
+	padding-left: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.message {
+	border: 2px;
+	background-image: linear-gradient(45deg, rgb(227, 19, 123), red);
+	height: 15%;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 5px;
+}
+#mail-1 {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 5%;
+	font-size: 15px;
+}
+#mail-2 {
+	color: white;
+}
+.footer-end {
+	text-align: center;
+	margin-top: 15%;
+	font-size: 2px;
+	font-family: "Times New Roman", Times, serif;
+}
